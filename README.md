@@ -16,3 +16,31 @@ Smart Logistics Manager is a professional MERN-stack web application crafted to 
 - **Predictive Metrics:** Leverage advanced analytics to predict delivery outcomes and improve planning.
 - **Delivery Performance Monitoring:** Track and measure delivery success rates to ensure top-notch service quality.
 - **User-Friendly Admin Dashboard:** A sleek, intuitive interface for managing all logistics operations seamlessly.
+
+## Demo 🖥️
+You can visit the live site here - https://logisticsmanager.vercel.app/
+
+## Technologies Used 👨🏻‍💻
+- **Typescript** – A strongly-typed superset of JavaScript that enhances the development of fast and scalable web applications.
+- **Tailwind CSS** – A utility-first CSS framework for efficient and responsive styling.
+- **Docker** – Containerization for seamless deployment and scalability.
+- **ShadCN** – Used for beautifully designed, responsive components.
+
+## Installation 🛠️
+- First Read this [License](https://github.com/UjjwalSaini07/Smart-Logistics-Manager/blob/main/LICENSE) & their terms then proceed.
+- Star the [Repository](https://github.com/UjjwalSaini07/Smart-Logistics-Manager)
+- Clone the repository:
+```bash
+  git clone https://github.com/UjjwalSaini07/Smart-Logistics-Manager.git
+```
+- Install the necessary dependencies:
+```bash
+  pnpm install
+```
+
+## Usage 🖥️
+- Start the development server
+```bash
+   pnpm run dev
+ ```
+- Open your browser and navigate to http://localhost:8080 to view the localhost website
