@@ -1,8 +1,13 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "description": "Smart Logistics Manager is a MERN-stack web application providing a comprehensive dashboard for logistics management. Features include analytics, route optimization, real-time driver tracking, fleet management, predictive metrics, and delivery performance monitoring. A complete admin dashboard solution for efficient logistics operations.",
+  "keywords": [ "Smart Logistics Manager", "MERN stack", "logistics dashboard", "route optimization", "real-time tracking", "fleet management", "predictive metrics", "delivery analytics", "admin panel", "logistics analytics", "efficient logistics solutions"
+  ],
+  "author": "UjjwalS",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
