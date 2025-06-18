@@ -45,11 +45,40 @@ You can visit the live site here - https://logisticsmanager.vercel.app/
  ```
 - Open your browser and navigate to http://localhost:8080 to view the localhost website
 
+## Project Setup Using Docker Containerization:
+1. Start the Docker Engine Locally or Use Any Service
+2. Navigate to the project Root directory:
+```bash
+    cd Smart-Logistics-Manager
+```
+3. Run DockerFile:
+```bash
+    docker-compose up --build
+```
+4. Wait for Generating the Image
+
+#### How Docker Image Builds Looks
+
+#### Project Docker Container
+
+5. Now Simply use the Project using Docker Container
+
 ## Author ✍️
 - [@Ujjwal Saini](https://github.com/UjjwalSaini07)
 
 ## Screenshots 📷
 ![image](https://github.com/user-attachments/assets/0e18cdc9-9b5b-4fbf-837e-73b85bbe9e77)
+
+### Future Enhancements 🧭  
+
+| Feature                       | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| **AI-Driven Route Planning**  | Implement machine learning to predict optimal delivery routes dynamically. |
+| **Multi-Language Support**    | Add support for multiple languages to cater to a global user base.         |
+| **Driver Performance Metrics**| Introduce detailed analytics to track and improve driver performance.      |
+| **Mobile App Integration**    | Develop a companion mobile app for on-the-go management and tracking.      |
+| **Custom Reporting Tools**    | Allow users to generate tailored reports for specific business needs.      |
+| **API Integration**           | Enable seamless integration with third-party logistics and ERP systems.    |
 
 ## Contact 📞
 Feel free to reach out if you have any questions or suggestions!
