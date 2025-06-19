@@ -473,7 +473,7 @@ const RouteOptimization = () => {
       </Card>
 
       {/* Enhanced Optimized Route */}
-      <Card className="lg:col-span-1">
+      <Card className="lg:col-span-1 h-full flex flex-col">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <MapPin className="h-5 w-5 text-orange-600" />
@@ -506,7 +506,7 @@ const RouteOptimization = () => {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="space-y-3 max-h-96 overflow-y-auto">
+          <div className="space-y-3 max-h-full overflow-y-auto">
             {filteredAndSortedPoints.map((point, index) => (
               <div key={point.id} className={`flex items-center space-x-3 p-3 rounded-lg border transition-all duration-300 ${
                 point.isCompleted ? 'bg-green-50 border-green-200 opacity-75' : 'border-gray-200 hover:bg-gray-50 hover:shadow-md'
@@ -590,8 +590,33 @@ const RouteOptimization = () => {
               <div className="bg-green-50 p-2 rounded border-l-4 border-green-400">
                 <p className="text-green-800">✅ Route optimization improved efficiency by 12%</p>
               </div>
+              <div className="bg-red-50 p-2 rounded border-l-4 border-red-400">
+                <p className="text-red-800">🚨 High-priority delivery at risk of delay: consider re-routing</p>
+              </div>
+              <div className="bg-purple-50 p-2 rounded border-l-4 border-purple-400">
+                <p className="text-purple-800">🔍 Predictive maintenance alert: Vehicle #8 due for inspection in 3 days</p>
+              </div>
+              <div className="bg-teal-50 p-2 rounded border-l-4 border-teal-400">
+                <p className="text-teal-800">📊 Demand forecast: Increased delivery requests in Zone 3 for next week</p>
+              </div>
+              <div className="bg-pink-50 p-2 rounded border-l-4 border-pink-400">
+                <p className="text-pink-800">💡 Suggested fuel-saving route: 8% lower consumption</p>
+              </div>
+              <div className="bg-gray-50 p-2 rounded border-l-4 border-gray-400">
+                <p className="text-gray-800">🧭 New customer acquisition trend in Zone 5: consider adding delivery slots</p>
+              </div>
+              <div className="bg-lime-50 p-2 rounded border-l-4 border-lime-400">
+                <p className="text-lime-800">🌱 Eco-friendly mode recommended: Reduced CO₂ emissions by 15%</p>
+              </div>
+              <div className="bg-amber-50 p-2 rounded border-l-4 border-amber-400">
+                <p className="text-amber-800">📦 Warehouse A restock alert: Low inventory for Item #42</p>
+              </div>
+              <div className="bg-rose-50 p-2 rounded border-l-4 border-rose-400">
+                <p className="text-rose-800">🛡️ Security alert: Unusual access detected at Depot #4</p>
+              </div>
             </div>
           </div>
+
 
           {/* ... keep existing code (route statistics, performance metrics) the same */}
         </CardContent>
