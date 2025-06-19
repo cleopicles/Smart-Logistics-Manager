@@ -2,11 +2,11 @@
 
 ## 🚀 Supported Versions
 
-This project is currently in the **development stage**.
+This project is currently in the **development stage** but Releases the version 1 - v1.0.
 
 | Version | Support Status     |
 | ------- | ------------------ |
-| 0.1.x   | ✅ Fully Supported  |
+| 1.0.x   | ✅ Fully Supported  |
 
 ## 🔐 Our Commitment to Security
 
@@ -29,8 +29,8 @@ If you discover a security vulnerability, please follow these guidelines:
 
 You can report vulnerabilities by:
 
-- Opening a confidential issue on GitHub: [🚨 Raise Issue](https://github.com/UjjwalSaini07/GramUday/issues)  
-- Or contacting us directly at:  `ujjwalsaini0007+gramuday@gmail.com`
+- Opening a confidential issue on GitHub: [🚨 Raise Issue](https://github.com/UjjwalSaini07/Smart-Logistics-Manager/issues)  
+- Or contacting us directly at:  `ujjwalsaini0007+Logistics@gmail.com`
 
 ## ⚡ Response Process
 
